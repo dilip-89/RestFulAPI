@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="6" verbose="1">
+
+    <test name="Get List Of Object By ID">
+        <classes>
+            <class name="com.restful.restfultest.getListOfObjectTest"/>
+        </classes>
+    </test>
+
+    <test name="Get Single Object By ID">
+        <classes>
+            <class name="com.restful.restfultest.getSingleObjectTest"/>
+        </classes>
+    </test>
+
+    <test name="Add Single Object To The List">
+        <classes>
+            <class name="com.restful.restfultest.addObjectTest"/>
+        </classes>
+    </test>
+
+    <test name="Update Single Object In The List">
+        <classes>
+            <class name="com.restful.restfultest.updateObjectTest"/>
+        </classes>
+    </test>
+
+    <test name="Delete Single Object In The List">
+        <classes>
+            <class name="com.restful.restfultest.deleteObjectFromTheList"/>
+        </classes>
+    </test>
+
+</suite>
